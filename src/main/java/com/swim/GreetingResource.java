@@ -1,16 +1,16 @@
 package com.swim;
 
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/hello")
+@Path("/rest")
 public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
+    @Path("hello")
     public String hello() {
         return "Hello from Quarkus REST";
     }
+
 }
