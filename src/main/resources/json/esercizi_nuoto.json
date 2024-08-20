@@ -1,0 +1,145 @@
+{
+	"styles": [
+		{
+			"style": "free style",
+			"label": "SL",
+			"exercises": [
+				{
+					"times": 4,
+					"repeat": 4,
+					"description": "2 con PB / 2 con TAV",
+					"rest": 15,
+					"tags": [
+						"L",
+						"T",
+						"N"
+					]
+				},
+				{
+					"times": 8,
+					"repeat": 2,
+					"description": "4 con PB / 4 con TAV",
+					"rest": 25,
+					"tags": [
+						"L",
+						"T",
+						"N"
+					]
+				},
+				{
+					"times": 8,
+					"repeat": 1,
+					"description": "",
+					"rest": 0,
+					"tags": [
+						"L",
+						"T",
+						"N",
+						"A"
+					]
+				},
+				{
+					"times": 16,
+					"repeat": 1,
+					"description": "",
+					"rest": 0,
+					"tags": [
+						"T",
+						"N",
+						"A"
+					]
+				},
+				{
+					"times": 32,
+					"repeat": 1,
+					"description": "",
+					"rest": 0,
+					"tags": [
+						"A"
+					]
+				},
+				{
+					"times": 40,
+					"repeat": 1,
+					"description": "",
+					"rest": 0,
+					"tags": [
+						"A"
+					]
+				},
+				{
+					"times": 8,
+					"repeat": 4,
+					"description": "",
+					"rest": 20,
+					"tags": [
+						"N",
+						"A"
+					]
+				},
+				{
+					"times": 16,
+					"repeat": 2,
+					"description": "",
+					"rest": 30,
+					"tags": [
+						"N",
+						"A"
+					]
+				},
+				{
+					"times": 32,
+					"repeat": 2,
+					"description": "",
+					"rest": 40,
+					"tags": [
+						"A"
+					]
+				},
+				{
+					"times": 40,
+					"repeat": 2,
+					"description": "",
+					"rest": 60,
+					"tags": [
+						"A"
+					]
+				},
+				{
+					"times": 2,
+					"repeat": 8,
+					"description": "veloci",
+					"rest": 20,
+					"tags": [
+						"Z"
+					]
+				},
+				{
+					"times": 1,
+					"repeat": 8,
+					"description": "veloci",
+					"rest": 15,
+					"tags": [
+						"Z",
+						"N"
+					]
+				}
+			]
+		},
+		{
+			"style": "backstroke",
+			"label": "DO",
+			"exercises": []
+		},
+		{
+			"style": "breaststroke",
+			"label": "RA",
+			"exercises": []
+		},
+		{
+			"style": "butterfly",
+			"label": "FA",
+			"exercises": []
+		}
+	]
+}

@@ -10,8 +10,21 @@ public class JsonService {
 
     private final JsonServiceConfig jsonConfig;
 
+    private final JsonFileService jsonFileService;
 
-    public JsonService(JsonServiceConfig jsonConfig) {
+    public JsonService(JsonServiceConfig jsonConfig, JsonFileService jsonFileService) {
         this.jsonConfig = jsonConfig;
+        this.jsonFileService = jsonFileService;
     }
+
+    public String getFile(){
+        return jsonFileService.getConfigFile(jsonConfig.jsonFilePath()).toString();
+    }
+
+    public String getAllStyles(){
+        return jsonFileService.getAllStyles(jsonConfig.jsonFilePath()).toString();
+    }
+
+
+
 }

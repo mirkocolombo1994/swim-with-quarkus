@@ -7,6 +7,6 @@ import jakarta.inject.Singleton;
 @Singleton
 public interface JsonServiceConfig {
 
-    String jsonFile();
+    String jsonFilePath();
 
 }

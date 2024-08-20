@@ -1,5 +1,7 @@
 package com.swim.controller;
 
+import com.swim.service.SwimService;
+import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -7,10 +9,13 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class SwimController {
 
+    @Inject
+    private SwimService swimService;
+
     @GET
     @Path("all")
     public String all() {
-        return "";
+        return swimService.getFile();
     }
 
 }

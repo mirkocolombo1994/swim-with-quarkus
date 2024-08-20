@@ -11,6 +11,6 @@ public class Style {
 
     private String style;
     private String label;
-    private List<Exercise> exercies;
+    private List<Exercise> exercises;
 
 }
